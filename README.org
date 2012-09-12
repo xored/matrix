@@ -1,2 +1,19 @@
 * matrix
   Canvas-based control displaying monospaced styled chars. The implementation should be generic enough to use it for tetris, shell and text editor
+
+* Terminals [old]
+  We have a Hudson/Jenkins plugin, which implements Web terminals support on quite high level of usability (interactive apps like mc and vim work OK) and performance. Seems to be a good idea to take as much as possible from there, since a lot of problems are already solved.
+  To look at the plugin in action, take the bundle from here: http://jenkins.xored.com/view/Terminals/job/terminal-plugin/lastSuccessfulBuild/artifact/target/remote-terminal.hpi   
+
+  ** stylish
+     DOM-based FWT-compatible widgets for Fantom. 
+     https://bitbucket.org/ikornienko/stylish
+     This component is designed as a top-level widget toolkit with support of multiple back-ends. There is an HTML DOM back-end, which is good. Not sure about other back-ends, need to investigate this. 
+     
+  ** termcore
+     Terminal protocol parser and related stuff.
+     https://bitbucket.org/dsavenko/termcore
+     
+  ** termui
+     UI front-end for terminals, uses stylish for rendering and termcore for parsing.
+     https://bitbucket.org/dsavenko/termui
