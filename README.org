@@ -1,0 +1,2 @@
+* matrix
+  Canvas-based control displaying monospaced styled chars. The implementation should be generic enough to use it for tetris, shell and text editor
